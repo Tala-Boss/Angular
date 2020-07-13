@@ -13,29 +13,29 @@ nav a {
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #e6e6e6;
+  background-color: #2e5cb8;
   border-radius: 4px;
-  width: 80%;
-   text-align: center;
-   color: black;
-   font-size: 18px;
+  width: 90%;
+   
+   color: white;
+   font-size: 20px;
 }
-nav a:visited, a:link {
-  color: #334953;
-}
+
 nav a:hover {
   color: #039be5;
   background-color: #cfd8dc;
 }
 nav a.active {
-  color: #039be5;
+ font-size: 23px;
+ text-shadow: 2px 2px gray;
 }
 
 #first {
    border-radius: 6px;
     width: 270px;
+    height: 100%;
     float:left; /* add this */
-    background-color: #666666;
+    background-color: #2e5cb8;
     
 }
 #second  {
