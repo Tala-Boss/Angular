@@ -1,30 +1,40 @@
+
+
 <div  id="first">
 
 <nav>
   <ul>
-    <a routerLink="/first-component" routerLinkActive="active">Monitoring</a>
+    <a routerLink="/first-component" routerLinkActive="active">
+        <i class="fa fa-th-large" aria-hidden="true"></i>
+         Monitoring 
+         <i class="fa fa-angle-down" aria-hidden="true"></i>
+     </a>
     <br>
-    <a>Managed Elemant</a>
+    <a> <i class="fa fa-server" aria-hidden="true"></i> Managed Elemant
+    <i class="fa fa-angle-down" aria-hidden="true"></i></a>
     <br>
-    <a>Network Map</a>
+    <a><i class="fa fa-sitemap" aria-hidden="true"></i> Network Map</a>
     <br>
-    <a>Services</a>
+    <a><i class="fa fa-pie-chart" aria-hidden="true"></i>Services</a>
     <br>
-    <a>Configurations</a>
+    <a> <i class="fa fa-share-alt"></i> Configurations</a>
     <br>
-    <a>Telemetry</a>
+    <a> <i class="fa fa-bar-chart" aria-hidden="true"></i> Telemetry
+      <i class="fa fa-angle-down" aria-hidden="true"></i></a>
     <br>
-    <a>Tasks</a>
+    <a><i class="fa fa-cubes" aria-hidden="true"></i> Tasks</a>
     <br>
-    <a>Jobs</a>
+    <a><i class="fa fa-cube" aria-hidden="true"></i> Jobs</a>
     <br>
-    <a>Event</a>
+    <a> <i class="fa fa-bell"></i> Event</a>
     <br>
-    <a>Notifications</a>
+    <a><i class="fa fa-envelope"></i> Notifications</a>
     <br>
-    <a>System Health</a>
+    <a><i class="fa fa-medkit" aria-hidden="true"></i> System Health 
+        <i class="fa fa-angle-down" aria-hidden="true"></i></a>    
     <br>
-    <a routerLink="/second-component" routerLinkActive="active">Settings</a>
+    
+    <a routerLink="/second-component" routerLinkActive="active"> <i class="fa fa-gear"></i> Settings</a>
 
   </ul>
 </nav>
@@ -33,4 +43,6 @@
 <router-outlet></router-outlet>
 </div>
 
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
